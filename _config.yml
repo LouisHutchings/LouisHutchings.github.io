@@ -23,11 +23,11 @@ name: "Louis Hutchings"
 description: "My personal website."
 url: "https://louishutchings.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "louishutchings/louishutchings.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs: true # false (default)
+masthead_title: "Home" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: false # false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -51,7 +51,7 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: # true, false (default)
+search: true # false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -93,14 +93,14 @@ analytics:
 # Site Author
 author:
   name: "Louis Hutchings"
-  avatar: "/assets/images/profilepic.png"
+  avatar: "/assets/images/profilepic2.png"
   bio: "Software Development Engineer"
   location: "United Kingdom"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:louishutchings6@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -112,7 +112,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/louishutchings"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -221,7 +221,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
+  - jekyll-remote-theme
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -256,7 +256,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+include: ["_pages"]
 # Defaults
 defaults:
   # _posts
@@ -270,3 +270,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
