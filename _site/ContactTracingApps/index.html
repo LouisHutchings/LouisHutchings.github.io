@@ -1,0 +1,487 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Why Contact Tracing Apps Don’t Need Your Location - Louis Hutchings</title>
+<meta name="description" content="As new cases of Covid-19 begin to drop in many countries, governments are looking for ways to loosen lockdown restrictions and restart the economy. Contact tracing of some form will need to be implemented if governments want to stop outbreaks before they begin and prevent a second wave. One solution is to use a contact tracing app, an app that can alert the user if they have been in contact with someone who has tested positive for Covid-19. This would mean people will know if they are potentially infected and can self-isolate. The race to build a contact tracing an app is already well under way, with governments and companies pouring money into their development, but doesn’t an app that tracks every member of the population and who they have been in contact with seem a little orwellian?">
+
+
+  <meta name="author" content="Louis Hutchings">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="Louis Hutchings">
+<meta property="og:title" content="Why Contact Tracing Apps Don’t Need Your Location">
+<meta property="og:url" content="http://localhost:4000/ContactTracingApps/">
+
+
+  <meta property="og:description" content="As new cases of Covid-19 begin to drop in many countries, governments are looking for ways to loosen lockdown restrictions and restart the economy. Contact tracing of some form will need to be implemented if governments want to stop outbreaks before they begin and prevent a second wave. One solution is to use a contact tracing app, an app that can alert the user if they have been in contact with someone who has tested positive for Covid-19. This would mean people will know if they are potentially infected and can self-isolate. The race to build a contact tracing an app is already well under way, with governments and companies pouring money into their development, but doesn’t an app that tracks every member of the population and who they have been in contact with seem a little orwellian?">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/contacttracing.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2020-08-02T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/ContactTracingApps/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Louis Hutchings",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Louis Hutchings Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Home
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/contacttracing.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Why Contact Tracing Apps Don’t Need Your Location
+
+        
+      </h1>
+      
+        <p class="page__lead">The surprisingly simple cryptography behind contact tracing
+</p>
+      
+      
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profilepic2.png" alt="Louis Hutchings" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Louis Hutchings</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Development Engineer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">United Kingdom</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:louishutchings6@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/louishutchings" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Why Contact Tracing Apps Don’t Need Your Location">
+    <meta itemprop="description" content="As new cases of Covid-19 begin to drop in many countries, governments are looking for ways to loosen lockdown restrictions and restart the economy. Contact tracing of some form will need to be implemented if governments want to stop outbreaks before they begin and prevent a second wave. One solution is to use a contact tracing app, an app that can alert the user if they have been in contact with someone who has tested positive for Covid-19. This would mean people will know if they are potentially infected and can self-isolate. The race to build a contact tracing an app is already well under way, with governments and companies pouring money into their development, but doesn’t an app that tracks every member of the population and who they have been in contact with seem a little orwellian?">
+    <meta itemprop="datePublished" content="2020-08-02T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>As new cases of Covid-19 begin to drop in many countries, governments are looking for ways to loosen lockdown restrictions and restart the economy. Contact tracing of some form will need to be implemented if governments want to stop outbreaks before they begin and prevent a second wave. One solution is to use a contact tracing app, an app that can alert the user if they have been in contact with someone who has tested positive for Covid-19. This would mean people will know if they are potentially infected and can self-isolate. The race to build a contact tracing an app is already well under way, with governments and companies pouring money into their development, but doesn’t an app that tracks every member of the population and who they have been in contact with seem a little orwellian?</p>
+
+<p>You may rightly question whether the benefits of contact tracing are worth sacrificing your privacy for. You may, however, forget to ask if it is even necessary for the app to know your loaction or any other personal details. At first glance it seems obvious that your location must be tracked, after all the app is alerting you based on your proximity to others, but thanks to some surprisingly simple cryptography this doesn’t have to be the case.</p>
+
+<p>The DP3T (Decentralized Privacy-Preserving Proximity Tracing) algorithm has been designed to “determine who has been in close physical proximity to a COVID-19 positive person and thus exposed to the virus, without revealing the contact’s identity or where the contact occurred.” It can provide contact tracing without anything but strings of random numbers leaving the users phones. All computation and personal details stay on the users device. So how does it work?</p>
+
+<p>Meet Alice and Bob. Alice and Bob both have a contact tracing app using the DP3T design installed on their phones. Alice and Bob are stood next to each other in a queue at a supermarket. Alice’s phone is sending out sequences of random characters over blutooth. Each time Alice’s phone sends out a sequence of characters it saves to her phone, sequences are deleted after 14 days. Bob’s phone is listening for these random characters over blutooth and when it picks up the one sent by Alice’s phone it saves the sequence. Bob’s phone does this for all random character sequences he picks up and a record is kept of all the sequences received over the past 14 days. The reverse also happens where Bob’s phone sends out the messages and Alice’s phone recieves them. Bob and Alice then leave the supermarket and go their seperate ways. A week later Alice tests positive for COVID-19. This is a bad day for Alice. Alice tells the app she has the virus and her phone uploads all the random character sequences she has sent out over the past 14 days to a central server. If a hacker, the government or anyone else were to look at the contents of this server they would just see sequences and sequences of gibberish. To them the information is completely useless but it isn’t to Bob’s phone. Bob’s phone is regularly checking the server to see if any of the sequences match the ones Bob has seen over the past 14 days. Bob’s phone matches Alice’s character sequence on the serve to the one one saved on the phone and alerts Bob that he needs to self isolate. Bob does not know that Alice is COVID-19 positive or that he came into contact with someone carrying the virus in the supermarket queue but he does know that he needs to isolate. At no point did any personal data leave Bob or Alice’s phones.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#contact-tracing" class="page__taxonomy-item" rel="tag">Contact Tracing</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#coronavirus" class="page__taxonomy-item" rel="tag">Coronavirus</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#covid-19" class="page__taxonomy-item" rel="tag">Covid-19</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-08-02T00:00:00+01:00">August 2, 2020</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Why+Contact+Tracing+Apps+Don%27t+Need+Your+Location%20http%3A%2F%2Flocalhost%3A4000%2FContactTracingApps%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FContactTracingApps%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FContactTracingApps%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/TestPost/" class="pagination--pager" title="Test Post
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/TestPost/" rel="permalink">Test Post
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This Post Is A Test
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
